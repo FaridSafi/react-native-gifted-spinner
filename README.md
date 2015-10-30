@@ -1,11 +1,12 @@
-# react-native-gifted-listview
+# react-native-gifted-spinner
 
 Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform.
 
 
-### Example
-
 ![](https://raw.githubusercontent.com/FaridSafi/react-native-gifted-spinner/master/screenshot/screenshot.png)
+
+
+### Example
 
 ```js
 var React = require('react-native');
