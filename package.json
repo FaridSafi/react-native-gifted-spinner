@@ -1,0 +1,27 @@
+{
+  "name": "react-native-gifted-spinner",
+  "version": "0.0.1",
+  "description": "Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform",
+  "main": "GiftedSpinner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaridSafi/react-native-gifted-spinner.git"
+  },
+  "keywords": [
+    "spinner",
+    "loader",
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Farid from Safi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FaridSafi/react-native-gifted-spinner/issues"
+  },
+  "homepage": "https://github.com/FaridSafi/react-native-gifted-spinner#readme"
+}
