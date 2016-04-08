@@ -10,13 +10,19 @@ var {
 } = React;
 
 var GiftedSpinner = React.createClass({
-  
   _getSpinner() {
+    //add android size support
+    if(this.props.size === 'large'){
+      this.androidPH = 36;
+    }else{
+      this.androidPH = 20;
+    }
+    //
     if (Platform.OS === 'android') {
       return (
-        <ProgressBarAndroid 
+        <ProgressBarAndroid
           style={{
-            height: 20,
+            height: this.androidPH,
           }}
           styleAttr="Inverse"
           {...this.props}
@@ -32,7 +38,7 @@ var GiftedSpinner = React.createClass({
       );
     }
   },
-  
+
   render() {
     return (
       <View>
@@ -40,7 +46,7 @@ var GiftedSpinner = React.createClass({
       </View>
     );
   },
-  
+
 });
 
 
