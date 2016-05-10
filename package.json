@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-native": "^0.26.0-rc",
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FaridSafi/react-native-gifted-spinner.git"
