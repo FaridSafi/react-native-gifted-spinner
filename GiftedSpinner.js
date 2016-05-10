@@ -1,20 +1,22 @@
 'use strict'
 
-var React = require('react-native');
+var React = require('react');
+
+var ReactNative = require('react-native');
 
 var {
   View,
   ActivityIndicatorIOS,
   ProgressBarAndroid,
   Platform
-} = React;
+} = ReactNative;
 
 var GiftedSpinner = React.createClass({
-  
+
   _getSpinner() {
     if (Platform.OS === 'android') {
       return (
-        <ProgressBarAndroid 
+        <ProgressBarAndroid
           style={{
             height: 20,
           }}
@@ -32,7 +34,7 @@ var GiftedSpinner = React.createClass({
       );
     }
   },
-  
+
   render() {
     return (
       <View>
@@ -40,7 +42,7 @@ var GiftedSpinner = React.createClass({
       </View>
     );
   },
-  
+
 });
 
 
