@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react": "^15.0.2",
-    "react-native": "^0.26.0-rc",
+    "react": "^0.14.5",
+    "react-native": "^0.25.1",
   },
   "repository": {
     "type": "git",
