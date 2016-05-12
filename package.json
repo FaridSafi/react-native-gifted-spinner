@@ -1,6 +1,6 @@
 {
   "name": "react-native-gifted-spinner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform",
   "main": "GiftedSpinner.js",
   "scripts": {
