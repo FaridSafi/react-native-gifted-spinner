@@ -18,13 +18,17 @@ var GiftedSpinner = require('react-native-gifted-spinner');
 
 var Example = React.createClass({
   render() {
+    //GiftedSpinner's size can be 'small' and 'large' just like ActivityIndicatorIOS
     return (
       <View style={{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-        <GiftedSpinner />
+        <GiftedSpinner
+          size='large'
+          color='#6435c9'
+        />
       </View>
     );
   }
