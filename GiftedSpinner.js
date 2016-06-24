@@ -4,7 +4,7 @@ var React = require('react');
 
 var {
   View,
-  ActivityIndicatorIOS,
+  ActivityIndicator,
   ProgressBarAndroid,
   Platform
 } = require('react-native');
@@ -24,7 +24,7 @@ var GiftedSpinner = React.createClass({
       );
     } else {
       return (
-        <ActivityIndicatorIOS
+        <ActivityIndicator
           animating={true}
           size="small"
           {...this.props}
