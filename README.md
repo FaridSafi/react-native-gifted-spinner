@@ -28,7 +28,12 @@ var Example = React.createClass({
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-        <GiftedSpinner />
+        <GiftedSpinner
+          size={'large'} // ios size
+          style={{
+            height: 20, // android size
+          }}
+        />
       </View>
     );
   }
