@@ -1,17 +1,10 @@
 'use strict'
 
-var React = require('react');
+import React, { Component, PropTypes } from 'react';
+import { View, ProgressBarAndroid, Platform, ActivityIndicator } from 'react-native';  
 
-var {
-  View,
-  ActivityIndicatorIOS,
-  ProgressBarAndroid,
-  Platform
-} = require('react-native');
-
-var GiftedSpinner = React.createClass({
-  
-  _getSpinner() {
+export default class GiftedSpinner extends Component {
+  _getSpinner = () => {
     if (Platform.OS === 'android') {
       return (
         <ProgressBarAndroid 
@@ -24,14 +17,14 @@ var GiftedSpinner = React.createClass({
       );
     } else {
       return (
-        <ActivityIndicatorIOS
+        <ActivityIndicator
           animating={true}
           size="small"
           {...this.props}
         />
       );
     }
-  },
+  }
   
   render() {
     return (
@@ -39,9 +32,5 @@ var GiftedSpinner = React.createClass({
         {this._getSpinner()}
       </View>
     );
-  },
-  
-});
-
-
-module.exports = GiftedSpinner;
+  }  
+}
