@@ -1,5 +1,9 @@
 # react-native-gifted-spinner
 
+#### This package is now deprecated. [ActivityIndicator](https://facebook.github.io/react-native/docs/activityindicator.html) should be used instead
+
+
+
 Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform.
 
 
