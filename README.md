@@ -1,51 +1,28 @@
-# react-native-gifted-spinner
+# Gifted Spinner
 
-#### This package is now deprecated. [ActivityIndicator](https://facebook.github.io/react-native/docs/activityindicator.html) should be used instead
-
-
-
-Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform.
-
-
-![](https://raw.githubusercontent.com/FaridSafi/react-native-gifted-spinner/master/screenshot/screenshot.png)
-
-
-### Example
-
-```js
-var React = require('react-native');
-var {
-  View,
-} = React;
-
-var GiftedSpinner = require('react-native-gifted-spinner');
-
-var Example = React.createClass({
-  render() {
-    return (
-      <View style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-        <GiftedSpinner
-          size={'large'} // ios size
-          style={{
-            height: 20, // android size
-          }}
-        />
-      </View>
-    );
-  }
-});
-```
+This component is now deprecated. Use [ActivityIndicator](https://facebook.github.io/react-native/docs/activityindicator.html) instead.
 
 ### Installation
 
-```npm install react-native-gifted-spinner --save```
+`npm install react-native-gifted-spinner --save`
+
+### Example
+
+```javascript
+import React, { Component } from 'react';
+import GiftedSpinner from 'react-native-gifted-spinner';
+
+export default class Example extends Component {
+  render() {
+    return (
+      <GiftedSpinner />
+    );
+  }
+}
+```
 
 ### License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
 
 Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/FaridSafi) !

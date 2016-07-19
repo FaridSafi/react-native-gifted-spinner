@@ -1,7 +1,7 @@
 {
   "name": "react-native-gifted-spinner",
-  "version": "0.0.5",
-  "description": "Simple loading spinner that use React-Native ProgressBarAndroid or ActivityIndicatorIOS depending of the platform",
+  "version": "0.1.0",
+  "description": "ActivityIndicator wrapper. Circular loading indicator",
   "main": "GiftedSpinner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
